@@ -1,0 +1,14 @@
+/* Переменые для страницы */
+
+:root {
+  --color-text: #333333;
+  --color-cout: #7bb4b3;
+  --bg_btn: #ffd050;
+  --title_h1_fs: 40px;
+  --title_h1_fs_mob: 20px;
+  --title_h2_fs: 36px;
+  --subtitle_fs: 16px;
+  --text-fs: 16px;
+  --inner_text_fs: 20px;
+  --inner_text_fs_mob: 14px;
+}

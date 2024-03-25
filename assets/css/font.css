@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SFProText-Light";
+  font-weight: 300;
+  src: url("../fonts/SFProText-Light.ttf");
+}
+
+@font-face {
+  font-family: "SFProText-Regular";
+  font-weight: 400;
+  src: url("../fonts/SFProText-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SFProText-Medium";
+  font-weight: 500;
+  src: url("../fonts/SFProText-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SFProText-semibold";
+  font-weight: 600;
+  src: url("../fonts/SFProText-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "SFProText-bold";
+  font-weight: 700;
+  src: url("../fonts/SFProText-Bold.ttf");
+}
