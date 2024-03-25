@@ -105,6 +105,7 @@
     width: 100%;
     font-size: var(--title_h1_fs_mob);
     margin-left: 5px;
+    margin-bottom: 0;
   }
   .promo-designer {
     background: url("../img/bg_lampy.webp") right/contain no-repeat;
@@ -150,7 +151,7 @@
     margin-left: 10px;
   }
   .section-advantage {
-    margin-top: 220px;
+    margin-top: 150px;
     padding-left: 35px;
   }
   .title_h2 {
@@ -160,11 +161,12 @@
   }
   .advantage-bg {
     top: 0;
-    background: url("../img/bg_mobile_advantage.png") center no-repeat,
-      url("../img/bg_hand_mobile.png") 78% -110px no-repeat;
-    right: -40px;
+    background: url("../img/bg_mobile_advantage.png") 100% no-repeat,
+      url(../img/bg_hand_mobile.png) 100% -110px no-repeat;
+    right: 0px;
     height: 200px;
-    width: 380px;
+    width: 100%;
+    left: inherit;
   }
   .advantage-item {
     margin-bottom: 26px;
@@ -204,12 +206,13 @@
     position: absolute;
     bottom: -80px;
     z-index: 9;
+    width: 334px;
   }
   .btn_work {
     margin-top: 30px;
   }
   .offer-inner__text-work {
-    font-size: 18px;
+    font-size: 17px;
   }
   .offer-inner-work::before {
     top: -10px;
