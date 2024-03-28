@@ -19,9 +19,10 @@
   header {
     min-height: 145px;
   }
-  .title-promo {
+  h1.title-promo {
     padding-top: 34px;
     font-size: 24px;
+    margin-bottom: 30px;
   }
   .section-promo {
     padding-bottom: 60px;
@@ -42,11 +43,15 @@
   .img-promo {
     width: 100%;
   }
-  .section-advantage {
+  .section-advantage-promo {
     margin-top: 55px;
   }
   .title {
     font-size: 22px;
+    margin-bottom: 35px;
+  }
+  h2.title_mb-35,
+  h2.title-section-theme {
     margin-bottom: 35px;
   }
   .advantage-item-pick-title {
@@ -55,13 +60,6 @@
   .advantage-desc,
   .work-item-desc {
     font-size: 14px;
-  }
-  .advantage-item-pick-icon {
-    width: 19px;
-    height: 19px;
-  }
-  .advantage-item-pick-icon img {
-    width: 100%;
   }
   .advantage-item {
     margin-bottom: 35px;
@@ -79,7 +77,7 @@
   .section-item {
     margin-bottom: 20px;
   }
-  .title-work {
+  h2.title-work {
     margin-bottom: 35px;
   }
   .work-box-img {
@@ -102,7 +100,7 @@
     background-image: url("../img/mobile-header.png");
   }
   .title {
-    width: 100%;
+    width: 98%;
     font-size: var(--title_h1_fs_mob);
     margin-left: 5px;
     margin-bottom: 0;
